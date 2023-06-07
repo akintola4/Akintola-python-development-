@@ -9,7 +9,7 @@ else:
     honour_roll = False
 
 #later in your code if you want to check if the student is
-#on honour rool, all i need o do us check the boolean variable
+#on honour rool, all i need to do is use the variable to check the boolean variable
 #i set earlier in my code
 if honour_roll:
     print('you made honour roll')
