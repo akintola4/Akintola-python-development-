@@ -1,4 +1,4 @@
 # Akintola-python-development-
-folahack starts
-get to understand python from this examples i did
-and few changes to come 
+welcome to python for everyone by 
+#fola
+here you will learn python, the same way I learnt it 
