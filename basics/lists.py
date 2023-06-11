@@ -1,6 +1,11 @@
 #list in python collection of items in a particular order 
 #list are used to store multiple items in a single variable
 #list are created using square brackets
+#List is a collection which is ordered and changeable. Allows duplicate members.
+#Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+#Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+#Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
 #example
 fruits = ['apple', 'banana', 'cherry']
 #list items are separated by commas
@@ -169,6 +174,14 @@ for item in mall:
         new_mall.append(item)
 print(new_mall)
 #this will print ['shoe', 'shoe']
+
+#there are several ways to join two or more lists
+#example
+new_mall = mall + new_mall
+print(new_mall)
+#this will print ['shoe', 'bag', 'cloth', 'shoe', 'shoe', 'shoe']
+
+
 
 #list comprehension can also be used to manipulate the list
 
