@@ -1,7 +1,7 @@
 import time
 
 #welcoming the user
-name = raw_input("What is your name? ")
+name = input("What is your name? ")
 
 print ("Hello, " + name, "Time to play hangman!")
 
@@ -59,7 +59,7 @@ while turns > 0:
     print
 
     # ask the user go guess a character
-    guess = raw_input("guess a character:") 
+    guess = input("guess a character:") 
 
     # set the players guess to guesses
     guesses += guess                    

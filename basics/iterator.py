@@ -1,0 +1,1 @@
+#python iterator is an object that contains a countable number of values
