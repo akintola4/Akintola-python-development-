@@ -1,4 +1,23 @@
 #python has a function for creating, reading , updating and deleting files
+#the key function for working with files in python is the open() function
+#open() function takes two parameters:
+#1. the file we want to open
+#2. the mode in which we want to open the file
+
+#they are four different modes for opening a file
+#r - read - default mode
+#w - write
+#a - append
+#r+ - read and write
+
+#you can aslo specify if the file should be handled as binary or text mode
+#t - text - default mode
+#b - binary for non text files
+
+nasa = open("nasa.txt", "r")
+#here we open the nasa.txt file in read mode
+#the variable nasa is now pointing to the file
+print(nasa.read())
 
 #open a file
 #example
