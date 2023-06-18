@@ -47,4 +47,11 @@ myFile = open("myfile", "r+")
 #we need to save the data we get from the file into a variable 
 text = myFile.read(100)
 print("the data from the file : ", text)
- 
+
+#we can also create a file if it does not exist
+myFile = open("myfile2.txt", "w")
+#this will create a file called myfile2.txt
+#if it already exists it will be overwritten
+myFile.close()
+#this will close the file
+
